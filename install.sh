@@ -22,5 +22,5 @@ if [[ ! -s "$JS_SCRIPTMODULE_FULL" ]]; then
     exit 1
 fi
 
-sudo "$RP_SETUP_DIR/retropie_packages.sh" "$JS_SCRIPTMODULE"
-sudo "$RP_SETUP_DIR/retropie_packages.sh" "$JS_SCRIPTMODULE" gui
+sudo "$RP_SETUP_DIR/retroarena_packages.sh" "$JS_SCRIPTMODULE"
+sudo "$RP_SETUP_DIR/retroarena_packages.sh" "$JS_SCRIPTMODULE" gui

@@ -48,7 +48,8 @@
 #         Maybe I'll need to keep a copy of the current inifuncs.sh in
 #         the future...
 #
-# meleu, June-2017
+# meleu, June-2017 
+# Teamgt19, ported for RetroArena March-2019 
 
 # I've noticed a little delay to show the first main menu when running
 # on a raspi1. This infobox is just to say that something is happenning.
