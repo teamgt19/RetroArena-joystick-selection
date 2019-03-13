@@ -39,7 +39,7 @@ function install_joystick-selection() {
     if grep -vq "<path>./joystick_selection.sh</path>" "$gamelistxml"; then
         xmlstarlet ed -L -P -s "/gameList" -t elem -n "gameTMP" \
             -s "//gameTMP" -t elem -n path -v "./joystick_selection.sh" \
-            -s "//gameTMP" -t elem -n name -v "Joystick Selection" \
+            -s "//gameTMP" -t elem -n name -v "SYSTEM: JOYSTICK SELECTION" \
             -s "//gameTMP" -t elem -n desc -v "Select which joystick to use for RetroArch players 1-4 (global or system specific)." \
             -s "//gameTMP" -t elem -n image -v "./icons/joystick_selection.png" \
             -r "//gameTMP" -v "game" \
